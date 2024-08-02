@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Text Editor</title>
+    <link rel="stylesheet" href="./assets/css/2style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script rel="stylesheet" src="./assets/js/texteditor.js"></script>
+  </head>
+  <body>
+    <header style="font-family: sans-serif">
+      <center>AK Text Editor</center>
+    </header>
+
+    <fieldset id="code-box" >
+      <legend>TYPE YOUR CODE HERE Ver : 1.0.0</legend>
+      <textarea id="code">
+      <!DOCTYPE html>
+      <html>
+      <head>
+      <title>Basic Text Editor</title>
+      </head>
+      <body>
+
+      </body>
+      </html>
+      </textarea>
+    </fieldset>
+ 
+    <fieldset id="show" >
+      <legend>YOUR CODE RESULT</legend>
+      <div id="result"></div>
+    </fieldset>
+
+    <center>
+      <button id="run-btn" onclick="run1()">Run Code !</button>
+      <button id="icon" onclick="run2()">Return to Code !</button>
+    </center>
+  </body>
+</html>
